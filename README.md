@@ -4,7 +4,7 @@
 
 This is an app written in python using pygame and requests. It monitors the servers by pinging and fetching websites. It's was meant to be run on my Raspberry Pi and is thus optimized for my setup. Only tested with python 2.6 and it will only work in linux as of now.
 
-![What it looks like](./TM-ServerMonitor/monitor.png "Screenshot of monitor.py")
+![What it looks like](http://tobbentm.com/ul/monitor.png "Screenshot of monitor.py")
 
 ## Installing
 

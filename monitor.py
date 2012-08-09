@@ -113,10 +113,6 @@ def main():
 	div_main_1 = pygame.Surface((quarterw*4, 1))
 	div_main_1 = div_main_1.convert()
 	div_main_1.fill((color_white))
-		
-	div_map = pygame.Surface((1, screen.get_height()))
-	div_map = div_right_ver.convert()
-	div_map.fill((color_pink))
 	
 	#Fonts
 	small_font = pygame.font.Font(konu_font, 18 + konu_fontsize)

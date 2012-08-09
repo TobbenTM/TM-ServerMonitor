@@ -295,7 +295,7 @@ def main():
 		
 		#Monitors
 		w3_pingt = normal_font.render(konu_ping, 1, (color_white))
-		w3_apachet = normal_font.render(konu_apache, 1, (color_white))
+		w3_apachet = normal_font.render(konu_web, 1, (color_white))
 		screen.blit(w3_pingt, (hcenter3v - w3_pingt.get_width()/2, 120))
 		screen.blit(w3_apachet, (hcenter3h - w3_apachet.get_width()/2, 120))
 		
@@ -385,7 +385,7 @@ def main():
 		
 		#Monitors
 		w6_pingt = normal_font.render(konu_ping, 1, (color_white))
-		w6_apachet = normal_font.render(konu_apache, 1, (color_white))
+		w6_apachet = normal_font.render(konu_web, 1, (color_white))
 		screen.blit(w6_pingt, (hcenter3v - w6_pingt.get_width()/2, vcenter + 120))
 		screen.blit(w6_apachet, (hcenter3h - w6_apachet.get_width()/2, vcenter + 120))
 		

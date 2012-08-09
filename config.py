@@ -64,7 +64,7 @@ kon6_ip = "109.74.195.196"
 kon6_limit = 55.0
 kon6_dn = "http://" + "dsen.tv"
 #__Universal__
-konu_apache = "Apache"
+konu_web = "Apache"
 konu_ping = "Ping"
 konu_ok = "OK"
 konu_warn = "WARN"
@@ -88,4 +88,3 @@ color_white = (255, 255, 255)
 color_green = (12, 199, 26)
 color_yellow = (230, 228, 22)
 color_red = (201, 8, 8)
-color_pink = (237, 21, 214)

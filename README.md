@@ -2,7 +2,9 @@
 
 ## Overview
 
-This is an app written in python using pygame and requests. It's was meant to be run on my Raspberry Pi and is thus optimized for my setup. Only tested with python 2.6 and it will only work in linux as of now.
+This is an app written in python using pygame and requests. It monitors the servers by pinging and fetching websites. It's was meant to be run on my Raspberry Pi and is thus optimized for my setup. Only tested with python 2.6 and it will only work in linux as of now.
+
+![What it looks like](/monitor.png "Screenshot of monitor")
 
 ## Installing
 
@@ -20,13 +22,18 @@ Get requests from PyPI:
 
 ### Configuration
 
-You will find a "config.py" file with all options. It should be easy enough to figure out what most of it is.
+You will find a "config.py" file with all options. It should be easy enough to figure out what most of it is based on my configuration.
 
 ## Todo
 
 * Implement some kind of statistics for uptime etc.
-* Ass support for running on Windows.
+* Add support for running on Windows.
 * Implement SNMP Manager to monitor bandwidth of devices.
+* Implement possibility for sound and/or email alerts.
+
+## Known bugs
+
+* It (probably) wont warn when DNS fails unless you restart it.
 
 ## License
 

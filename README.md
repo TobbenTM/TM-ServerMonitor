@@ -39,6 +39,8 @@ Note that on linux you may have to run as root for python to be able to ping.
 ## Known bugs
 
 * It (probably) wont warn when DNS fails unless you restart it.
+* May occasionally crash.
+* May not detect loss of network.
 
 ## License
 
